@@ -1,0 +1,5 @@
+begin
+    alpha := 20; gamma := 11; C3P0 := 5; R2D2 := 4;
+    answer := alpha + 2 * gamma div (C3P0 - R2D2);
+    gun := (i mod ammo)^2^2^2
+end
