@@ -1,1 +1,0 @@
-begin answer := alpha + 2 * gamma div (C3P0 - R2D2) end

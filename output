@@ -1,0 +1,58 @@
+run:
+...Reading from the file...
+Expression: 
+begin
+    alpha := 20; gamma := 11; C3P0 := 5; R2D2 := 4; 		 	
+    answer := alpha + 2 * gamma div (C3P0 - R2D2);
+    gun := (i mod ammo)^2^2^2
+end
+--------------------------
+RVALUE		begin
+RVALUE		alpha
+ASSIGNMENT
+RVALUE		20
+SEMICOLON
+RVALUE		gamma
+ASSIGNMENT
+RVALUE		11
+SEMICOLON
+RVALUE		C3P0
+ASSIGNMENT
+RVALUE		5
+SEMICOLON
+RVALUE		R2D2
+ASSIGNMENT
+RVALUE		4
+SEMICOLON
+RVALUE		answer
+ASSIGNMENT
+RVALUE		alpha
+ADD
+RVALUE		2
+MULTIPLY
+RVALUE		gamma
+DIVIDE
+LEFT_PAREN
+RVALUE		C3P0
+SUBTRACT
+RVALUE		R2D2
+RIGHT_PAREN
+SEMICOLON
+RVALUE		gun
+ASSIGNMENT
+LEFT_PAREN
+RVALUE		i
+MOD
+RVALUE		ammo
+RIGHT_PAREN
+POW
+RVALUE		2
+POW
+RVALUE		2
+POW
+RVALUE		2
+RVALUE		end
+File has 22 different numbers and 23 operators.
+--------------------------
+0
+BUILD SUCCESSFUL (total time: 0 seconds)
